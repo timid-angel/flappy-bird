@@ -1,5 +1,28 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#container {
+    grid-column: 2;
+}
+
+#board {
+    margin-top: 4rem;
+    border-radius: 5%;
+    /* background-color: skyblue; */
+    background-image: url('../img/flappybirdbg.png');
+}
+
+#start {
+    font-size: 2rem;
+    display: block;
+    margin: 1rem auto;
+    padding: 0.3rem;
+    border-radius: 4%;
+    border: none;
+    background-color: rgb(25, 151, 230);
 }
